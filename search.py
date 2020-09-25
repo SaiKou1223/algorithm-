@@ -1,6 +1,7 @@
 def ser(li,target):
     left = 0
     right = len(li) - 1
+    #二分查找
     while left <= right:
         mid = (left+right) // 2
         if li[mid] == target:
