@@ -1,15 +1,3 @@
-
-
-
-
-def select1(li):
-    lis = []
-    for i in range(len(li)):
-        min_value = min(li)
-        lis.append(min_value)
-        li.remove(min_value)
-    return lis
-
 def select_sort(li):
     for i in range(len(li)-1): #第i趟
         min_v = i
